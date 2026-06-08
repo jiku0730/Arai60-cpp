@@ -54,4 +54,4 @@ echo -e "# $TITLE\n\n$URL" | gh pr create \
 echo "$TITLE を解いたのでレビューいただけると幸いです。"
 echo "問題: $URL"
 echo "PR: TBD"
-echo "言語: C言語"
+echo "言語: C++"

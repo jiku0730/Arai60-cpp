@@ -42,9 +42,9 @@ git checkout -b "$DIR_NAME"
 mkdir -p "$DIR_NAME"
 
 # Create empty files under the directory
-touch "$DIR_NAME/step1.c"
-touch "$DIR_NAME/step2.c"
-touch "$DIR_NAME/step3.c"
+touch "$DIR_NAME/step1.cpp"
+touch "$DIR_NAME/step2.cpp"
+touch "$DIR_NAME/step3.cpp"
 touch "$DIR_NAME/memo.md"
 
 # Populate memo.md using a heredoc
@@ -68,4 +68,4 @@ $URL
 *   
 EOF
 
-echo "Directory '$DIR_NAME' created with template files: step1.c, step2.c, step3.c, memo.md"
+echo "Directory '$DIR_NAME' created with template files: step1.cpp, step2.cpp, step3.cpp, memo.md"
